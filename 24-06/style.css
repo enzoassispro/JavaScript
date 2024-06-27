@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px solid red;
+    /*largura*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 1px solid red;
+    height: 100px;
+    background: darkblue;
+}
+
+.header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.content {
+    /*Flexbox*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.lado-1, .lado-2 {
+    max-width: 400px;
+    border: 1px solid black;
+}
