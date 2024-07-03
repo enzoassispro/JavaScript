@@ -1,4 +1,4 @@
-const function = [
+const functions = [
     function (){return 'Plymouth'},
     function (){return 'é'}, 
     function (){return 'uma'}, 
@@ -28,3 +28,10 @@ const function = [
     function (){return 'Índias'},
     function (){return 'Ocidentais.'},   
 ];
+
+let frase = '';
+
+for(let i = 0; i < functions.length; i++) {
+    frase += `${functions[i]()}`;
+}
+    console.log(frase);
