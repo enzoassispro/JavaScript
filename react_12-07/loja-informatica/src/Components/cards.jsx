@@ -30,7 +30,7 @@ const Card = () => {
                     <article className="card">
                         <div className="card-body" >
                             <img className="card-img-top" src={card.img} alt= "Computers" />
-                            <h5 className="card-title">{card.title}</h5>
+                            <h5 className="card-title pt-3 pb-3 ">{card.title}</h5>
                             <h6 className="card-subtitle mb-2 text-muted">{card.subTitle}</h6>
                             <p className="card-text">{card.text}</p>
                         </div>
